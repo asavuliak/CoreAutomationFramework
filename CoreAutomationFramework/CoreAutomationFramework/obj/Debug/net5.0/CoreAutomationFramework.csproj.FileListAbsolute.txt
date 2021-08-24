@@ -109,3 +109,4 @@
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/obj/Debug/net5.0/ref/CoreAutomationFramework.dll
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/obj/Debug/net5.0/CoreAutomationFramework.pdb
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/obj/Debug/net5.0/CoreAutomationFramework.genruntimeconfig.cache
+/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/appsettings.json

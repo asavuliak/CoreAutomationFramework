@@ -12,6 +12,7 @@
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "NUnit": "3.13.1",
           "NUnit3TestAdapter": "3.17.0",
+          "Newtonsoft.Json": "9.0.1",
           "TimeZoneConverter": "3.5.0",
           "coverlet.collector": "3.0.2"
         },
