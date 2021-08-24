@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading;
-using GeoTimeZone;
-using NUnit.Framework;
-using TimeZoneConverter;
 
 namespace CoreAutomationFramework.Methods
 {
@@ -14,6 +12,8 @@ namespace CoreAutomationFramework.Methods
     {
         public OutputResult ReadFromNmeaSentenceParser(string pathToDll)
         {
+            Console.WriteLine($"ReadFromNmeaSentenceParser {pathToDll}");
+
             OutputResult outputResult = new OutputResult();
             Process process = new Process();
             
@@ -37,6 +37,8 @@ namespace CoreAutomationFramework.Methods
         
         public void CopyTextFromFileToAnotherFile(string fromFileName, string toFileName)
         {
+            Console.WriteLine($"CopyTextFromFileToAnotherFile from file {fromFileName} to file {toFileName}");
+
             string fullPathFromFile = Path.Combine(Environment.CurrentDirectory,  @"TestData/", fromFileName);
             string fullPathToFile = Path.Combine(Environment.CurrentDirectory, toFileName);
             
@@ -55,6 +57,8 @@ namespace CoreAutomationFramework.Methods
         }
         public List<Coordinates> GetResultFromOutput(string outputResult)
         {
+            Console.WriteLine($"GetResultFromOutput");
+
             List<string> newOutput = outputResult.Split("\n").ToList();
 
             List<Coordinates>  splitValue= new List<Coordinates>();

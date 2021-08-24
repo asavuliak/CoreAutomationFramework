@@ -1,3 +1,4 @@
+using System;
 using System.Threading;
 using CoreAutomationFramework.Methods;
 using NUnit.Framework;
@@ -6,17 +7,17 @@ namespace CoreAutomationFramework.Tests
 {
     [TestFixture]
     public class NoGLLInTheFile : BaseTest
-    {
+    { 
         MainMethods mainMethods => new MainMethods();
-
         
         [SetUp]
         public void Setup()
         {
+            Console.WriteLine("Setup");
             mainMethods.CopyTextFromFileToAnotherFile("NoGllInTheFile.txt", "sentences.txt");
-            Thread.Sleep(2000);
         }
 
+        [Category("Smoke")]
         [Test]
         public void NoGllInTheFileTest()
         {

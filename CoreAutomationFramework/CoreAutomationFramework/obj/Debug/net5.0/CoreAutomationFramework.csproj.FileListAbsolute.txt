@@ -6,7 +6,11 @@
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/nunit.engine.core.dll
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/sentences.txt
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/$ISMissed.txt
+/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/$IsMissedFirstLine.txt
+/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/ChecksumIsMissedInTheLastColumn.txt
+/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/FieldDelimiterIsMissed.txt
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/NoGllInTheFile.txt
+/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/ReplaceLatitudeDirectory.txt
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/sentencesMain.txt
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/sentencesTestCase1.txt
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/CoreAutomationFramework.deps.json
@@ -105,7 +109,3 @@
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/obj/Debug/net5.0/ref/CoreAutomationFramework.dll
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/obj/Debug/net5.0/CoreAutomationFramework.pdb
 /Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/obj/Debug/net5.0/CoreAutomationFramework.genruntimeconfig.cache
-/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/$IsMissedFirstLine.txt
-/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/ChecksumIsMissedInTheLastColumn.txt
-/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/FieldDelimiterIsMissed.txt
-/Users/asa/RiderProjects/CoreAutomationFramework/CoreAutomationFramework/bin/Debug/net5.0/TestData/ReplaceLatitudeDirectory.txt

@@ -1,3 +1,4 @@
+using System;
 using System.Threading;
 using CoreAutomationFramework.Methods;
 using NUnit.Framework;
@@ -13,6 +14,7 @@ namespace CoreAutomationFramework.Tests
         [SetUp]
         public void Setup()
         {
+            Console.WriteLine("Setup");
             mainMethods.CopyTextFromFileToAnotherFile("ChecksumIsMissedInTheLastColumn.txt", "sentences.txt");
             Thread.Sleep(2000);
         }
